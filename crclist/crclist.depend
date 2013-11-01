@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1367731502 source:g:\code\c++\bot2\crclist\file.cpp
+	"file.h"
+	<windows.h>
+	<string>
+	<list>
+	"..\errorlog\log.h"
+
+1372793640 g:\code\c++\bot2\crclist\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1376051626 g:\code\c++\bot2\errorlog\log.h
+	<iostream>
+
+1372794894 source:g:\code\c++\bot2\crclist\main.cpp
+	<iostream>
+	"..\errorlog\log.h"
+	"crcablefile.h"
+	"crclist.h"
+	"../exceptions/exception.h"
+
+1372818444 source:g:\code\c++\bot2\exceptions\exception.cpp
+
+1372819774 source:g:\code\c++\bot2\crclist\crcablefile.cpp
+
+1372819650 g:\code\c++\bot2\exceptions\exception.h
+	<exception>
+
+1372793632 g:\code\c++\bot2\crclist\crcablefile.h
+	"..\exceptions\exception.h"
+	"file.h"
+
+1372795966 source:g:\code\c++\bot2\crclist\crclist.cpp
+	"crclist.h"
+	<string>
+
+1372795936 g:\code\c++\bot2\crclist\crclist.h
+	"crcablefile.h"
+	<list>
+	"..\exceptions\exception.h"
+
+1367731502 source:h:\code\c++\bot2\crclist\file.cpp
+	"file.h"
+	<windows.h>
+	<string>
+	<list>
+	"..\errorlog\log.h"
+
+1372793640 h:\code\c++\bot2\crclist\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1376051626 h:\code\c++\bot2\errorlog\log.h
+	<iostream>
+
+1372835856 source:h:\code\c++\bot2\crclist\main.cpp
+	<iostream>
+	"..\errorlog\log.h"
+	"crcablefile.h"
+	"crclist.h"
+	"../exceptions/exception.h"
+
+1372793632 h:\code\c++\bot2\crclist\crcablefile.h
+	"..\exceptions\exception.h"
+	"file.h"
+
+1372819650 h:\code\c++\bot2\exceptions\exception.h
+	<exception>
+
+1372834670 h:\code\c++\bot2\crclist\crclist.h
+	"crcablefile.h"
+	<list>
+	"..\exceptions\exception.h"
+
+1372835810 source:h:\code\c++\bot2\crclist\crclist.cpp
+	"crclist.h"
+	<string>
+	<algorithm>
+
+1372818444 source:h:\code\c++\bot2\exceptions\exception.cpp
+
+1372819774 source:h:\code\c++\bot2\crclist\crcablefile.cpp
+

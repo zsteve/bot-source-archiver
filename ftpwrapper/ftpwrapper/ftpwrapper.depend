@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1373011216 source:m:\code\c++\blogpost\bp\ftpwrapper\ftpwrapper\ftplib.cpp
+
+1373069810 source:m:\code\c++\blogpost\bp\ftpwrapper\ftpwrapper\main.cpp
+	<iostream>
+	"ftplib.hpp"
+
+1373069608 m:\code\c++\blogpost\bp\ftpwrapper\ftpwrapper\ftplib.hpp
+	"ftplib.h"
+	<exception>
+
+1362286364 m:\code\c++\blogpost\bp\ftpwrapper\ftpwrapper\ftplib.h
+
+1373069810 source:e:\code\c++\bot2\ftpwrapper\ftpwrapper\main.cpp
+	<iostream>
+	"ftplib.hpp"
+
+1378615882 e:\code\c++\bot2\ftpwrapper\ftpwrapper\ftplib.hpp
+	"ftplib.h"
+	<exception>
+
+1362286364 e:\code\c++\bot2\ftpwrapper\ftpwrapper\ftplib.h
+
+1373011216 source:e:\code\c++\bot2\ftpwrapper\ftpwrapper\ftplib.cpp
+

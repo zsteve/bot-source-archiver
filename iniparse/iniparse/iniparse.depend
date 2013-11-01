@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1376431934 source:h:\linecountpp\iniparse\iniparse\main.cpp
+	<iostream>
+	"iniparse.h"
+
+1376433486 source:h:\linecountpp\iniparse\iniparse\iniparse.cpp
+	"iniparse.h"
+	<string>
+	<cstring>
+	<list>
+
+1376433602 h:\linecountpp\iniparse\iniparse\iniparse.h
+	<list>
+	<string>
+
+1372817822 source:g:\code\c++\bot2\iniparse\iniparse\main.cpp
+	<iostream>
+	"iniparse.h"
+
+1372816886 g:\code\c++\bot2\iniparse\iniparse\iniparse.h
+	<list>
+	<string>
+
+1372817702 source:g:\code\c++\bot2\iniparse\iniparse\iniparse.cpp
+	"iniparse.h"
+	<string>
+	<cstring>
+	<list>
+	<iostream>
+	<sstream>
+
+1372817822 source:h:\code\c++\bot2\iniparse\iniparse\main.cpp
+	<iostream>
+	"iniparse.h"
+
+1372845732 h:\code\c++\bot2\iniparse\iniparse\iniparse.h
+	<list>
+	<string>
+
+1372817922 source:h:\code\c++\bot2\iniparse\iniparse\iniparse.cpp
+	"iniparse.h"
+	<string>
+	<cstring>
+	<list>
+	<iostream>
+	<sstream>
+

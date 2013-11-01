@@ -11,3 +11,26 @@
 *.lai
 *.la
 *.a
+
+# Compiled Executables (Win32)
+*.exe
+*.dll
+
+# Visual Studio
+*.ncb
+*.manifest
+*.res
+*.ilk
+*.pdb
+*.suo
+*.obj
+*.idb
+*.dep
+*.sdf
+*.opensdf
+
+# Archived Stuff
+
+*.zip
+*.rar
+

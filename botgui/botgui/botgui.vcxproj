@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F3EF944-39B7-4A6D-B12B-0961BA038D9C}</ProjectGuid>
+    <RootNamespace>botgui</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="controlclass.cpp" />
+    <ClCompile Include="..\..\crclist\crcablefile.cpp" />
+    <ClCompile Include="..\..\crclist\crclist.cpp" />
+    <ClCompile Include="..\..\exceptions\exception.cpp" />
+    <ClCompile Include="..\..\file\file.cpp" />
+    <ClCompile Include="..\..\filelist\filelist.cpp" />
+    <ClCompile Include="fileprocessor.cpp" />
+    <ClCompile Include="..\..\ftpwrapper\ftpwrapper\ftplib.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="..\..\errorlog\log.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainwin.cpp" />
+    <ClCompile Include="..\..\serializable\parser.cpp" />
+    <ClCompile Include="relativepath.cpp" />
+    <ClCompile Include="setting.cpp" />
+    <ClCompile Include="status.cpp" />
+    <ClCompile Include="tabpage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controlclass.h" />
+    <ClInclude Include="..\..\crclist\crcablefile.h" />
+    <ClInclude Include="..\..\crclist\crclist.h" />
+    <ClInclude Include="..\..\exceptions\exception.h" />
+    <ClInclude Include="..\..\file\file.h" />
+    <ClInclude Include="..\..\filelist\filelist.h" />
+    <ClInclude Include="fileprocessor.h" />
+    <ClInclude Include="..\..\ftpwrapper\ftpwrapper\ftplib.hpp" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="..\..\errorlog\log.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="mainwin.h" />
+    <ClInclude Include="..\..\serializable\parser.h" />
+    <ClInclude Include="relativepath.h" />
+    <ClInclude Include="rsrc\resource.h" />
+    <ClInclude Include="..\..\serializable\serializable.h" />
+    <ClInclude Include="setting.h" />
+    <ClInclude Include="status.h" />
+    <ClInclude Include="tabpage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rsrc\iconmain.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rsrc\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\ftpwrapper\ftpwrapper\FTPlib.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="manifest.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

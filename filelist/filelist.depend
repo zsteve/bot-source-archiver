@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1372838060 source:h:\code\c++\bot2\filelist\main.cpp
+	<iostream>
+	"..\file\file.h"
+	"filelist.h"
+
+1372837814 source:h:\code\c++\bot2\filelist\filelist.cpp
+	"filelist.h"
+
+1372837454 h:\code\c++\bot2\filelist\filelist.h
+	"..\crclist\crcablefile.h"
+	<list>
+	"..\exceptions\exception.h"
+
+1372793632 h:\code\c++\bot2\crclist\crcablefile.h
+	"..\exceptions\exception.h"
+	"file.h"
+
+1372819650 h:\code\c++\bot2\exceptions\exception.h
+	<exception>
+
+1372793640 h:\code\c++\bot2\crclist\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1372838030 h:\code\c++\bot2\file\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1372838042 source:h:\code\c++\bot2\file\file.cpp
+	"file.h"
+	<windows.h>
+	<string>
+	<list>
+	"..\errorlog\log.h"
+
+1376051626 h:\code\c++\bot2\errorlog\log.h
+	<iostream>
+
